@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylos.css"> 
+    <title>Tareas</title>
+</head>
+<body>
+    <h1>Bienvenido a tu lista de tareas</h1>
+    <div id="Formulario">
+        <input type="text" placeholder="Nomnbre de la tarea" id="tituloTarea" required>
+        <input type="date" id="fecha" required>
+        <textarea id="DescripciónTarea" placeholder="Descripción de la tarea"></textarea>
+
+        <select id="p">
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+        </select>
+
+        <button onclick="añadirTareas()">Agregar tarea</button>
+
+
+    </div>
+    <ul id="tareaslist"></ul>
+
+
+    <script src="taller.js"></script>
+</body>
+</html>

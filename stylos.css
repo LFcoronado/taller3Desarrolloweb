@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#Formulario {
+    margin-bottom: 20px;
+}
+
+#Formulario input, #Formulario select, #Formulario textarea {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; 
+}
+
+#Formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Formulario button:hover {
+    background-color: #0056b3;
+}
+
+#tareaslist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priority-alta {
+    background-color: #ff6666; 
+}
+
+.priority-media {
+    background-color: #ffcc66;
+}
+
+.priority-baja {
+    background-color: #66ff66; 
+}
+
+.task-item span {
+    font-weight: bold;
+}
+
+.task-item div {
+    text-align: right;
+}
+
+.task-item div span {
+    font-weight: normal;
+    font-size: 0.9em;
+}
